@@ -1,5 +1,4 @@
 #opearators
-
 #assainment 
 a = 10
 
@@ -212,5 +211,6 @@ print(a % b)  # Output: 1 (Modulus)
 print(a ** b)  # Output: 1000 (Exponentiation)
 ```
 ---
+
 
 
