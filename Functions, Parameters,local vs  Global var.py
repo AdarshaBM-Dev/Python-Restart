@@ -10,7 +10,7 @@
 #     print(f"Girl is {girl}")
 #     print(f"{boy} married {girl}")
    
-# marriage("Adarsha", "Ranjitha") #positional arguments
+# marriage("Adarsha", "Ranjitha") #positional arguments  
 
 
 
