@@ -1,6 +1,6 @@
 #dictionary
 
-birthday = {   
+birthday = {     
     "Adarsha": "03-03-2003",     #keys : values  
     "virat": "05-10-1988",    
     "Amith": "07-12-2026"
