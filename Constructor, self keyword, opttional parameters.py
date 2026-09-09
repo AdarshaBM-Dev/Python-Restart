@@ -3,7 +3,7 @@ class Human:
         self.name = name
   
     def walk(self):
-        print(f"{self.name} is walking")
+        print(f"{self.name} is walking")  
 
 
 Adarsha = Human("Adarsha")
