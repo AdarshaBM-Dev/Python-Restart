@@ -1,52 +1,33 @@
-#list
-items = ["apple", "banana", "cherry"]
+items = ["Bru","sugar","Milk","bru"]
 print(items)
-print(items[0])
-print(items[1])
-print(items[2])
-
-l = [1, "hello", 3.14, True] 
-print(l)
-print(l[0])
-
+print(items[-1]) #indexing
+l = [1, "bru", True, [1,2,3]]
+items.pop() #remove last elemenet
 items.pop(0)
-print(items)
+items.append("good day") #add
+items.remove("sugar")
+items.insert(1, "spoon")
+items.clear()
+items = "cffe powder" #replace element
 
-items.append("orange")
-print(items)    
+ #slicing
 
-items.insert(1, "kiwi")
-print(items)
-
-items.remove("banana")
-print(items)
-
-items[0] = "grape"
-print(items)
-
-#slicing
-print(items[0:2])   
-print(items[1:])
-print(items[:2])
-print(items[-2:])
-print(items[-3:-1])
-print(items[::2])
-print(items[::-1])  
-print(items.index("kiwi"))
+l = [100, 200, 300, 400]
+l[0:4]
+l[0:3]
+l[0:]
+l[0::2]
+l2 = l[1:3]
+print(l2)
 
 print(len(items))
-print(max(items))
-print(min(items))
-print(sum([1, 2, 3, 4, 5]))
-print(sorted(items))
-print(items.count("kiwi"))
+items= [1, 23, 22, 43, 11]
 
+print(sorted(items))
+print(sum(items))
+print(items.index("bru"))
+print(reversed(items))
 
 #matrix
-print("matrix")
-matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-print(matrix)
-print(matrix[0][0])
-print(matrix[1][1])
-print(matrix[2][2])
-
+m = [[1,2],[3,4],[[1,2],[1,3]]]
+print(m)
