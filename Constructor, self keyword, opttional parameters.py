@@ -5,7 +5,7 @@ class Human:
     def walk(self): 
         print(f"{self.name} is walking")      
 
-
+     
 Adarsha = Human("Adarsha")
 Krishna = Human("Krishna")
 
